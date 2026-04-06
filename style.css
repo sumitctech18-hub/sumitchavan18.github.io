@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+/* CARD */
+.card {
+  margin: 40px;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* SKILLS */
+.skills-grid {
+  display: flex;
+  gap: 15px;
+}
+
+.skill-box {
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: #38bdf8;
+  color: black;
+}
+
+/* PROJECT */
+.project {
+  margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
